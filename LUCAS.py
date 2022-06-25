@@ -11,7 +11,7 @@ import streamlit as st
 st.title('Aplicacion de prueba')
 
 st.write('**Datos de king country, USA (20xx a 20xx)**:')
-data=pd.read_csv('C:/Users/mfvar/OneDrive/Escritorio/MARLON/MARLONDATA.csv')
+data=pd.read_csv('C:/Users/KAROL/Desktop/app lucas ciencia de datos/Lucas20.csv')
 st.dataframe(data)
 
 st.write('**Casas en el periodo analisado:**','Disponibles {} casas'.format(data['id'].nunique()))
